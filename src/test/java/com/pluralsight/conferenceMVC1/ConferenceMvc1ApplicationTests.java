@@ -1,0 +1,13 @@
+package com.pluralsight.conferenceMVC1;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class ConferenceMvc1ApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
