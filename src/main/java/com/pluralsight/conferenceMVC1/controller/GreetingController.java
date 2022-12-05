@@ -17,4 +17,11 @@ public class GreetingController {
     }
     //ono sto ovo gore radi je da kad trazimo URL/greeting, pozvace ovaj metod, staviti ovu poruku u model
     //a onda ce return linija traziti jsp stranicu sa nazivom greeting
+
+
+    @GetMapping("thyme")
+    public String thyme(Map<String, Object> model){
+        model.put("message", "Hello Thymeleaf");
+        return "thyme";
+    }
 }
